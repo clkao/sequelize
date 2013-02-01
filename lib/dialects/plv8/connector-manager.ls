@@ -8,7 +8,9 @@ class PLV8 extends Postgres
         Query = require("./query")
         query = new Query(null, @sequelize, callee, options || {})
         console.log \query sql
-        query.run sql
+        query.on \success -> console.log \WTF it
+        setTimeout -> query.run sql
+        query
 
     connect: ->
         console.log \toconncet

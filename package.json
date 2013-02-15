@@ -24,7 +24,7 @@
   "dependencies": {
     "underscore": "~1.4.0",
     "underscore.string": "~2.3.0",
-    "lingo": "~0.0.5",
+    "lingo": "git://github.com/visionmedia/lingo.git",
     "validator": "0.4.x",
     "moment": "~1.7.0",
     "commander": "~0.6.0",
